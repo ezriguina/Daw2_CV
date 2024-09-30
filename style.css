@@ -20,6 +20,19 @@ html{
     justify-content: center;
     border-radius: 20px;
 }
+span{
+    margin-left:0px;
+    font-size: 30px;
+    animation:colorc alternate infinite 2s;
+}
+@keyframes colorc {
+    from{
+        color: blue;
+    }to{
+        color: white;
+    }
+    
+}
 #navbar {
     padding-top: 20px;
     color: black;
@@ -51,11 +64,28 @@ html{
     height: 80vh;   
 }
 #img{
-    background-color: gray;
-    width: 40%;
-    height: 70vh;
+    border-radius: 40px;
+    width: 45%;
+    height: 55vh;
+    position: relative;
+    margin-left: 50%;
+    background-color: rgb(89, 89, 89);
+
+}
+
+ #btn a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-left: 50px;
+    font-size: 25px;
+    height: 5vh;
     border-radius: 20px;
-    display: flex;
-    margin-left: 800px;
-    
+    transition: 0.5s;
+}
+#btn a:hover{
+
+    background-color: black;
+    color: white;
 }
