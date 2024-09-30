@@ -74,6 +74,14 @@ span{
         font-size: 0.8em;
     }
 }
+@media only screen and (max-width: 400px) {
+    #navbar ul li a {
+        padding: 4px;
+        margin-right: 20px;
+        font-size: 0.8em;
+    }
+}
+
 #content{
     background-color: black;
     color: white;
