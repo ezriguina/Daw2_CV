@@ -36,7 +36,7 @@ html{
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin-right: 50px;
     transition: 1s ;
 }
 #navbar ul li a:hover{
