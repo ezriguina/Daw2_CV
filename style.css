@@ -12,6 +12,11 @@ html{
     background-color:rgb(18, 39, 114) ;
     color: black;
 }
+span{
+    margin-left:0px;
+    font-size: 30px;
+    animation:colorc alternate infinite 2s;
+}
 #Head{
     background-color: black;
     color: blue;
@@ -20,11 +25,7 @@ html{
     justify-content: center;
     border-radius: 20px;
 }
-span{
-    margin-left:0px;
-    font-size: 30px;
-    animation:colorc alternate infinite 2s;
-}
+
 @keyframes colorc {
     from{
         color: blue;
@@ -49,7 +50,7 @@ span{
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 100px;
     transition: 1s ;
 }
 #navbar ul li a:hover{
@@ -70,7 +71,8 @@ span{
     position: relative;
     margin-left: 50%;
     background-color: rgb(89, 89, 89);
-
+   background-image: url(/imagenes/man-1283576_1920.jpg);
+   background-size: 100%;
 }
 
  #btn a{
@@ -85,7 +87,6 @@ span{
     transition: 0.5s;
 }
 #btn a:hover{
-
     background-color: black;
     color: white;
 }
