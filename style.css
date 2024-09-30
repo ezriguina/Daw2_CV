@@ -9,7 +9,8 @@ html{
     background-color:blueviolet ;
     color: black;
 }
-#Head header{
+#Head{
     background-color: black;
     color: blue;
+    height: 10vh;
 }
