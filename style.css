@@ -89,3 +89,59 @@ span{
     background-color: black;
     color: white;
 }
+
+.contenido_contact{
+    height: 90vh;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.contenido_contact h1{
+    left: 70%;
+    position: relative;
+    bottom: 20%;
+    color:black;
+    font-size: 70px;
+    animation: h1 1s alternate-reverse infinite;
+}
+@keyframes h1{
+    from{border-radius: 20px;
+        box-shadow: 1px 1px 20px rgb(170, 170, 170);
+        text-decoration: double;
+        color: black;}
+    to{border-radius: 20px;
+        box-shadow: 1px 1px 20px rgb(255, 0, 0);
+        text-decoration: dashed;
+        color: red;}
+}
+.texto_contact{
+    border-radius: 30px;
+    margin-right: 50%;
+    align-items: center;
+    box-shadow: 0px 0px 20px red;
+    width: 200%;
+    height: 70vh; 
+}
+.texto_contact input{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.texto_contact textarea{
+    background-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    height: 70%;
+}
+.texto_contact button{
+    padding: 50px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: black;
+    color:gainsboro;
+}
