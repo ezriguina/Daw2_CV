@@ -152,3 +152,10 @@ span{
     background-color: black;
     color:gainsboro;
 }
+#nav_wareframe{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
