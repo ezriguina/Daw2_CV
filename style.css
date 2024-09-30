@@ -6,6 +6,7 @@ html{
     font-family: 'jesefin Sans', sans-serif;
     font-size: 16px;
     overflow-y: auto;
+    scroll-behavior: smooth;
 }
 
 .home{
