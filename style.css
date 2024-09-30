@@ -12,8 +12,25 @@ html{
 #Head{
     background-color: black;
     color: blue;
-    height: 5vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
 }
-#navbar{
+#navbar {
     background-color: aqua;
+}
+#navbar ul li{
+    text-decoration: none;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
 }
