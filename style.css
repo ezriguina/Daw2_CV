@@ -67,12 +67,14 @@ span{
 }
 #img img{
     border-radius: 40px;
-    width: 45%;
+    width: 35%;
     height: 55vh;
     position: relative;
     margin-left: 50%;
     background-color: rgb(89, 89, 89);
 }
+
+
 
  #btn a{
     text-decoration: none;
