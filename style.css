@@ -64,15 +64,13 @@ span{
     border-radius: 20px;
     height: 80vh;   
 }
-#img{
+#img img{
     border-radius: 40px;
     width: 45%;
     height: 55vh;
     position: relative;
     margin-left: 50%;
     background-color: rgb(89, 89, 89);
-   background-image: url(/imagenes/man-1283576_1920.jpg);
-   background-size: 100%;
 }
 
  #btn a{
