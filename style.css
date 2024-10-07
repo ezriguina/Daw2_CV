@@ -94,9 +94,13 @@ span{
     height: 55vh;
     position: relative;
     margin-left: 50%;
-    background-color: rgb(89, 89, 89);
+    background-color: rgb(0, 0, 0);
+    box-shadow:  0px 0px 20px rgb(93, 90, 230);
+    transition: 0.5s;
 }
-
+#img img:hover{
+box-shadow: 0px 0px 20px white;
+}
  #btn a{
     text-decoration: none;
     background-color: blue;
@@ -107,6 +111,7 @@ span{
     height: 5vh;
     border-radius: 20px;
     transition: 0.5s;
+    box-shadow: 0px 0px 20px white;
 }
 #btn a:hover{
     background-color: black;
@@ -131,6 +136,7 @@ span{
     font-size: 70px;
     animation: h1 1s alternate-reverse infinite;
 }
+
 @keyframes h1{
     from{border-radius: 20px;
         box-shadow: 1px 1px 20px rgb(170, 170, 170);
@@ -141,6 +147,7 @@ span{
         text-decoration: dashed;
         color: red;}
 }
+
 #nav_contact a{
     color: white;
     background-color: black;
