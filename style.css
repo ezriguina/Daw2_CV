@@ -117,7 +117,7 @@ box-shadow: 0px 0px 20px white;
     background-color: black;
     color: white;
 }
-
+/*
 .contenido_contact{
     height: 90vh;
     padding-top: 0%;
@@ -182,6 +182,129 @@ box-shadow: 0px 0px 20px white;
     background-color: black;
     color:gainsboro;
 }
+    */
+    #contact {
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+    
+    #nav_contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
+    
+    #nav_contact h2 span {
+        color: #FFD700;
+    }
+    
+    #nav_contact ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #nav_contact ul li {
+        display: inline;
+        margin-left: 20px;
+    }
+    
+    #nav_contact ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #nav_contact ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Estilos para el contenido del formulario */
+    .contenido_contact {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    .contenido_contact h1 {
+        text-align: center;
+        color: #333;
+    }
+    
+    .texto_contact input, 
+    .texto_contact textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    .texto_contact textarea {
+        resize: vertical;
+    }
+    
+    .texto_contact button {
+        width: 100%;
+        padding: 12px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    .texto_contact button:hover {
+        background-color: #218838;
+    }
+    
+    /* Estilos responsive */
+    @media (max-width: 768px) {
+        .contenido_contact {
+            padding: 15px;
+        }
+    
+        #nav_contact h2 {
+            font-size: 18px;
+        }
+    
+        .texto_contact input, 
+        .texto_contact textarea {
+            font-size: 14px;
+        }
+    
+        .texto_contact button {
+            font-size: 16px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        #nav_contact {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        #nav_contact h2 {
+            margin-bottom: 10px;
+        }
+    
+        .texto_contact input, 
+        .texto_contact textarea {
+            font-size: 12px;
+        }
+    
+        .texto_contact button {
+            font-size: 14px;
+        }
+    }
 #nav_wireframe a{
     color: white;
     background-color: black;
