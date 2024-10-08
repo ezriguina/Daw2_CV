@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Saira:wght@700&display=swap');
+
+html{
+    background-color: rgb(138, 138, 138);
+    color: black;
+    font-family: 'jesefin Sans', sans-serif;
+    font-size: 16px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.home{
+    background-color:rgb(18, 39, 114) ;
+    color: black;
+}
+span{
+    margin-left:0px;
+    font-size: 30px;
+    animation:colorc alternate infinite 2s;
+}
+#Head{
+    background-color: black;
+    color: blue;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+@keyframes colorc {
+    from{
+        color: blue;
+    }to{
+        color: white;
+    }
+    
+}
+#navbar {
+    padding-top: 20px;
+    color: black;
+}
+#navbar ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(81, 80, 82);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    transition: 1s ;
+}
+#navbar ul li a:hover{
+ padding: 20px;
+ color: white;
+ background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar ul li a {
+        padding: 10px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #navbar ul li a {
+        padding: 5px;
+        margin-right: 20px;
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #navbar ul li a {
+        padding: 4px;
+        margin-right: 20px;
+        font-size: 0.8em;
+    }
+}
+
+#content{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 80vh;   
+}
+#img img{
+    border-radius: 40px;
+    width: 35%;
+    height: 55vh;
+    position: relative;
+    margin-left: 50%;
+    background-color: rgb(0, 0, 0);
+    box-shadow:  0px 0px 20px rgb(93, 90, 230);
+    transition: 0.5s;
+}
+#img img:hover{
+box-shadow: 0px 0px 20px white;
+}
+ #btn a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-left: 50px;
+    font-size: 25px;
+    height: 5vh;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px white;
+}
+#btn a:hover{
+    background-color: black;
+    color: white;
+}
+
+.contenido_contact{
+    height: 90vh;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.contenido_contact h1{
+    left: 70%;
+    position: relative;
+    bottom: 20%;
+    color:black;
+    font-size: 70px;
+    animation: h1 1s alternate-reverse infinite;
+}
+
+@keyframes h1{
+    from{border-radius: 20px;
+        box-shadow: 1px 1px 20px rgb(170, 170, 170);
+        text-decoration: double;
+        color: black;}
+    to{border-radius: 20px;
+        box-shadow: 1px 1px 20px rgb(255, 0, 0);
+        text-decoration: dashed;
+        color: red;}
+}
+
+#nav_contact a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+.texto_contact{
+    border-radius: 30px;
+    margin-right: 50%;
+    align-items: center;
+    box-shadow: 0px 0px 20px red;
+    width: 200%;
+    height: 70vh; 
+}
+.texto_contact input{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.texto_contact textarea{
+    background-color: black;
+    border-radius: 10px;
+    color: whitesmoke;
+    height: 70%;
+}
+.texto_contact button{
+    padding: 50px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: black;
+    color:gainsboro;
+}
+#nav_wireframe a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+footer {
+    color: white;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #f2f2f2;
+  }
