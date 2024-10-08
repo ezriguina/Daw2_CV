@@ -183,18 +183,22 @@ box-shadow: 0px 0px 20px white;
     background-color: black;
     color:gainsboro;
 }
+
 @media (max-width: 768px) {
     .contenido_contact h1 {
-        font-size: 50px;
+        font-size: 40px;
+        position: relative;
+        left: 0px;
+        
     }
 
     .texto_contact {
         width: 90%;
     }
 
-    .texto_contact input,
     .texto_contact textarea {
         font-size: 14px;
+        width: 100%;
     }
 
     .texto_contact button {
@@ -214,7 +218,6 @@ box-shadow: 0px 0px 20px white;
         padding: 15px;
     }
 
-    .texto_contact input,
     .texto_contact textarea {
         font-size: 12px;
     }
@@ -234,6 +237,7 @@ box-shadow: 0px 0px 20px white;
 }
 
 footer {
+    height: 15vh;
     color: white;
     background-color: #000000;
     padding: 20px;
